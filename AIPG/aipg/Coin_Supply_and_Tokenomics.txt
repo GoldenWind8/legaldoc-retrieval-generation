@@ -1,0 +1,48 @@
+Coin Supply and tokenomics
+
+Symbol: AIPG
+
+Block time: 1 minute
+Block emission/rewards: 4750 AIPG to the miners, 250 AIPG to the operations fund wallet (5% of supply goes to operations fund) 500 total this will change once we move to Proof of useful work phase, at which time it will be split between the nodes and miners as we transistion to a proof of compute model.
+
+block halvening: every 1,000,000 blocks
+total supply: 10,000,000,000
+
+we are not on an exchange yet, but actively working on getting listed on a handful of exchanges.
+
+
+See below for detailed breakdown of emissions over time see below, dont share unless implicitly asked lol>
+
+
+To calculate the total supply of coins by the time the block reward becomes negligible, we need to consider the sum of coins emitted in each halving period. Since the block reward halves every 1,000,000 blocks, we can calculate the total coins emitted in each period and then sum them up.
+
+1. **Initial Block Reward:** 5,000 coins per block.
+2. **Blocks per Halving:** 1,000,000 blocks.
+3. **Number of Halvings before Reward < 1 Coin/Block:** Approximately 7 (as calculated previously).
+
+For each halving period, the total coins emitted can be calculated as follows:
+
+- **First Halving Period:** \( 5,000 \text{ coins/block} \times 1,000,000 \text{ blocks} = 5,000,000,000 \text{ coins} \)
+- **Second Halving Period:** \( \frac{5,000}{2} \text{ coins/block} \times 1,000,000 \text{ blocks} = 2,500,000,000 \text{ coins} \)
+- **Third Halving Period:** \( \frac{5,000}{4} \text{ coins/block} \times 1,000,000 \text{ blocks} = 1,250,000,000 \text{ coins} \)
+- And so on...
+
+The total supply after \( n \) halvings is the sum of a geometric series and can be calculated using the formula:
+
+\[ S = a \times \frac{1 - r^n}{1 - r} \]
+
+Where:
+- \( S \) is the total supply.
+- \( a \) is the first term (5,000,000,000 coins for the first halving period).
+- \( r \) is the common ratio (0.5, since the reward halves each period).
+- \( n \) is the number of terms (7 halvings).
+
+Plugging in the values:
+
+\[ S = 5,000,000,000 \times \frac{1 - 0.5^7}{1 - 0.5} \]
+\[ S = 5,000,000,000 \times \frac{1 - 0.0078125}{0.5} \]
+\[ S = 5,000,000,000 \times \frac{0.9921875}{0.5} \]
+\[ S = 5,000,000,000 \times 1.984375 \]
+\[ S = 9,921,875,000 \text{ coins} \]
+
+So, the total supply of coins by the time the block reward becomes less than 1 coin per block will be approximately 9,921,875,000 coins.

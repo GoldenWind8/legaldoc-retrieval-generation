@@ -1,0 +1,12 @@
+AI Power Grid is a decentralized platform that incentivizes the hosting and management of AI workloads, including Large Language Models (LLM) and Stable Diffusion models, through a unique blockchain protocol.
+
+AI Power Grid operates on a model that seamlessly integrates the robustness of blockchain technology with the dynamic capabilities of AI. The project began as a fork of Ravencoin, initially adopting a Proof of Work (PoW) consensus mechanism to attract a broad base of GPU miners. This strategic choice not only leverages the existing mining community but also sets the stage for a transition to a more sustainable and innovative Proof of Useful Work (PoUW) model.
+
+In the PoUW framework, the focus shifts from traditional mining to hosting and running AI workloads. This transition marks a significant step towards democratizing AI, as it allows node operators to contribute to AI processing tasks, making these technologies more accessible to the wider community. The platform's design ensures that anyone, regardless of their technical expertise, can participate in and benefit from the AI revolution.
+
+AI Power Grid's economic model is meticulously crafted to ensure fairness and sustainability. The system rewards early adopters and contributors, fostering a community-driven approach to AI development. The platform's native token, AIPG, plays a crucial role in this ecosystem, serving as a means of transaction and incentivization within the network.
+
+The project's roadmap is ambitious yet grounded in practical milestones. Future plans include expanding the range of supported AI workloads, integrating validator nodes for enhanced network integrity, and fostering collaborations with key players in the AI and blockchain domains. These steps are aimed at solidifying AI Power Grid's position as a leading platform for decentralized AI development and application.
+
+AI Power Grid is more than just a blockchain project; it's a movement towards making AI tools and resources universally accessible. By bridging the gap between blockchain and AI, the project is not just creating a network but is nurturing a community poised to drive the next wave of AI advancements.
+

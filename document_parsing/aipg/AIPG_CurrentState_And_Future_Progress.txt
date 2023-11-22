@@ -1,0 +1,10 @@
+AI Power Grid, though in its nascent stages, has already laid a solid foundation for its future growth and development. Our mainnet and testnet are fully operational, showcasing our commitment to technical robustness and readiness for scaling. While we haven't officially announced our project yet, the groundwork we've established positions us uniquely in the blockchain and AI space.
+
+Our project is designed to revolutionize the way AI is accessed and utilized, by integrating blockchain technology to democratize AI development. The operational mainnet and testnet are testaments to our technical capabilities and the potential for rapid user growth and partnerships once we launch publicly.
+
+We are currently in discussions with potential partners and collaborators who share our vision of democratizing AI through blockchain technology. These partnerships, which will be announced in due course, are aimed at fostering enterprise and consumer adoption, further enhancing the utility and reach of our platform.
+
+As we move forward, our roadmap includes significant milestones such as the integration of AI art generation and a marketplace for AI-generated art, leveraging Ravencoin's NFT/Asset functionality. We are also exploring the implementation of open-source LLM chatbot hosting, which will be a key feature in our transition to a Proof of Useful Work (PoUW) phase.
+
+For evidence of our progress and updates, please refer to our [website/link to mainnet and testnet details], which provides detailed information about our current achievements and future plans.
+AI Power Grid Team Overview

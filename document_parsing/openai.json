@@ -1,0 +1,96 @@
+{
+  "info": {
+    "name": "OpenAI Compatible API",
+    "_postman_id": "Your_Postman_Collection_ID",
+    "description": "This collection interacts with an API compatible with OpenAI's API.",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Completions Endpoint",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"prompt\": \"This is a cake recipe:\\n\\n1.\",\n  \"max_tokens\": 200,\n  \"temperature\": 1,\n  \"top_p\": 0.9,\n  \"seed\": 10\n}"
+        },
+        "url": {
+          "raw": "{{base_url}}/v1/completions",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "v1",
+            "completions"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Chat Completions Endpoint",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"messages\": [\n    {\n      \"role\": \"user\",\n      \"content\": \"Hello!\"\n    }\n  ],\n  \"mode\": \"instruct\",\n  \"instruction_template\": \"Alpaca\"\n}"
+        },
+        "url": {
+          "raw": "{{base_url}}/v1/chat/completions",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "v1",
+            "chat",
+            "completions"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Chat Completions with Characters",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"messages\": [\n    {\n      \"role\": \"user\",\n      \"content\": \"Hello! Who are you?\"\n    }\n  ],\n  \"mode\": \"chat\",\n  \"character\": \"Example\"\n}"
+        },
+        "url": {
+          "raw": "{{base_url}}/v1/chat/completions",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "v1",
+            "chat",
+            "completions"
+          ]
+        }
+      }
+    }
+  ],
+  "variable": [
+    {
+      "id": "base_url",
+      "value": "http://127.0.0.1:5000"
+    }
+  ]
+}

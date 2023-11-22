@@ -1,0 +1,16 @@
+In parallel, AI Power Grid is focusing on generative Large Language Models (LLMs), rewarding nodes for hosting open-source AI chatbot workloads. This initiative aims to boost the burgeoning field of AI by providing free access to AI tools, with a premium tier offering secured, trusted nodes and API access for integrating AI into various applications. Future plans include exploring a dual-chain structure to enhance smart contract capabilities, further cementing AI Power Grid's role in propelling open-source AI development and usage.
+
+Plans for an AI Art NFT gallery and market are already in the works.. Stable Diffusion generations have a seed, and therefore can be captured and reproduced if one has the seed and settings. This is the perfect asset to record on the blockchain given it's nature.
+
+What is a seed?
+In AI a seed is a series of numbers that tells the AI how to generate an image. It is a starting point for the random number generator. The AI model is trained by learning from a set of input data, trying to identify patterns and relationships between the data points. Once the model has been trained, it is able to generate new data that is similar to the training data by using the patterns and relationships it has learned.
+
+What do seeds do in AI image generation?
+By generating a random seed the AI is able to generate different images each time, even if all other values stay the same. This allows infinite possibilities and an endless variety of images to be created each time.
+
+If you use the same seed, prompt and settings, you can get the same image every time. 
+Seeds play a critical role in the creative process. Artists can use different seeds to explore variations on a theme, or share their favourite seed values with others to explore, compare and evaluate different AI generated results.
+
+
+AI Power Grid is initially launching as a Ravencoin fork, is rapidly advancing the frontiers of open-source AI by integrating blockchain technology to reward community participation. The project is pioneering a dual-phase approach: starting with a Proof of Work (PoW) model and transitioning to Proof of Useful Work (PoUW), incentivizing users to host and manage AI workloads. A standout feature in development is an AI Art Gallery, where users can generate unique AI art images, mint them on the blockchain using AIPG tokens, and trade them in a dedicated marketplace. This innovative approach leverages the uniqueness of AI-generated art, utilizing seeds for image reproduction and creating a new realm of digital art ownership.
+

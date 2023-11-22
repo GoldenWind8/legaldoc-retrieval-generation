@@ -1,0 +1,4 @@
+
+AI Power Grid (AIPG) stands at the forefront of integrating blockchain with artificial intelligence (AI), aiming to make AI more accessible and rewarding for the community. Beginning as a Ravencoin fork, AIPG initially adopts a Proof of Work (PoW) model to attract GPU miners. The plan is to transition to a Proof of Useful Work (PoUW) framework, which will allow these miners to evolve into node operators, hosting and managing local AI workloads.
+
+This strategic shift is not just about maintaining a blockchain; it's about providing real-world AI services, such as local LLM inference and Stable Diffusion image generation, at no cost for community use, or through a secured, trusted node with API access for advanced needs. AIPG is designed to fuel innovation in open-source AI, offering a platform for enthusiasts to experiment, build, and contribute, thereby democratizing AI technology.

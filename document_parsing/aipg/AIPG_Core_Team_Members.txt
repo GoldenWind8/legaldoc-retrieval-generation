@@ -1,0 +1,20 @@
+half - Founder
+As the driving force behind AI Power Grid, half brings a wealth of experience and a deep passion for blockchain and AI technologies. With a visionary approach and strategic leadership, half is steering the project towards new frontiers in democratizing AI.
+
+Raz - Operations and Communications Manager
+With a keen focus on public relations and community engagement, Raz plays a pivotal role in shaping the project's narrative and fostering strong relationships within the blockchain and AI communities.
+
+PsychSpectrum - Developer and Blockchain Specialist
+A seasoned developer with extensive experience in Ravencoin forks, Psychadelic Spectrum is a key player in the technical development of AI Power Grid. His passion and expertise in blockchain technology are instrumental in driving the project's innovation.
+
+Mandark - Blockchain Network and Infrastructure Architect
+With a profound expertise in network engineering and a specialized focus on blockchain infrastructure, General Custer Jr is the cornerstone of AI Power Grid's technical backbone. He ensures the seamless integration and secure functioning of blockchain technologies within the project's infrastructure. His real-life camaraderie with the team not only fosters a strong sense of trust but also enhances the efficiency and reliability of our blockchain operations.
+
+Jojo - Large Language Model Engineer
+Hailing from South Africa, Jojo brings a specialized skill set in hosting and maintaining Large Language Model infrastructure. He is also adpet at fine tuning, training, and vector database solutions. His expertise is crucial in developing and optimizing the AI components of AI Power Grid, ensuring cutting-edge performance and capabilities.
+
+Kingchong - Cybersecurity, Compliance, and privacy Officer
+A meticulous and detail-oriented professional, Kingchong's role as a cybersecurity expert is vital in safeguarding the project. His background as a Linux cloud engineer ensures that AI Power Grid adheres to the highest standards of security and compliance.
+
+Profesor - AI Art/Stable Diffusion Engineer
+With a rich history of collaboration and a profound understanding of AI-generated art along with training and fine tuning models, Profesor from Mexico is the creative genius behind the AI Art aspects of AI Power Grid. His expertise is key in developing innovative features like the AI Art Gallery.
