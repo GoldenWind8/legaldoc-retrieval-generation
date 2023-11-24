@@ -2,12 +2,9 @@ from httpx import RequestError
 from qdrant_client import QdrantClient
 from qdrant_client.http.models import Distance, VectorParams, PointStruct
 from sentence_transformers import SentenceTransformer
-
-url = "23.244.73.132"
-api_key = "adfs8973241nwe8%213^%%^&nj"
 class Qdrant:
-    def __init__(self, host=url, port=6333, collection_name="bge-small", model_name="BAAI/bge-small-en-v1.5", api_key=api_key):
-        self.client = QdrantClient(host, port=port, api_key=api_key, https=False)
+    def __init__(self,api_key, host, port=6333, collection_name="qdrant", model_name="BAAI/bge-small-en-v1.5", https=True ):
+        self.client = QdrantClient(url=host, port=port, api_key=api_key) #, port=port, api_key=api_key, https=False
         self.collection_name = collection_name
         self._load_embedding_model(model_name)
         self._setup_collection()
@@ -20,6 +17,7 @@ class Qdrant:
         # Check if the collection already exists
         try:
             exists = self.client.get_collection(self.collection_name)
+            return
         except Exception:
             # Collection does not exist, create it
             self.client.create_collection(
@@ -56,11 +54,6 @@ class Qdrant:
         )
         return search_result
 
-
-
-# Usage example:
-if __name__ == "__main__":
-    sentences_1 = ["样例数据-1", "样例数据-2"]
 
 
 #TODO, use kwargs in constructor, have search result be text
